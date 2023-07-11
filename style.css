@@ -34,6 +34,47 @@ span {
   border-radius: 8px;
   background: #e55473;
 }
+/* navbar section */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(229, 84, 115, 0.1);
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo {
+  font-size: 28px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #e55473;
+  text-decoration: none;
+  font-weight: bold;
+}
+button {
+  padding: 12px 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: crimson;
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+button:hover {
+  color: black;
+}
+/* navbar section end */
+
 /* banner section */
 .banner-container {
   display: flex;
@@ -196,6 +237,7 @@ footer {
   background: #111010;
   text-align: center;
   padding: 100px 150px;
+  margin-top: 100px;
 }
 .footer-header {
   color: white;
