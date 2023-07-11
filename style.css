@@ -46,6 +46,7 @@ nav {
 }
 .logo {
   font-size: 28px;
+  cursor: pointer;
 }
 
 nav ul li {
@@ -71,7 +72,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 button:hover {
-  color: black;
+  color: rgb(69, 68, 68);
 }
 /* navbar section end */
 
@@ -231,6 +232,17 @@ button:hover {
   border-radius: 8px;
 }
 /* latest deals section end */
+
+/* stay with us */
+.stay-with-us {
+  display: flex;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+/* stay with us end */
 
 /* footer section */
 footer {
