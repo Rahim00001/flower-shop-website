@@ -168,3 +168,25 @@ span {
   height: 320px;
 }
 /* custom arrangement section end */
+
+/* latest deals section */
+.latest-deals {
+  background-image: url("./Flower Asset/latest\ deals.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1px 50px 100px;
+  margin: 100px 135px 50px 135px;
+  border: none;
+  border-radius: 8px;
+}
+.latest-deals-input {
+  text-align: center;
+}
+.latest-deals-input input {
+  padding: 25px 400px 25px 40px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 8px;
+}
+/* latest deals section end */
