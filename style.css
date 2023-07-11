@@ -19,7 +19,7 @@ body {
   font-size: 40px;
   font-weight: 800;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 span {
   color: #e55473;
@@ -156,3 +156,15 @@ span {
   padding-right: 50px;
 }
 /* hot deal section end */
+
+/* custom arrangement section */
+.custom-img {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 120px;
+}
+.custom-img img {
+  width: 280px;
+  height: 320px;
+}
+/* custom arrangement section end */
