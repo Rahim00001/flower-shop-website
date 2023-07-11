@@ -237,10 +237,26 @@ button:hover {
 .stay-with-us {
   display: flex;
   height: 300px;
-  width: 80%;
+  width: 82%;
   margin: auto;
   justify-content: space-around;
   align-items: center;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+}
+.email {
+  padding-right: 320px;
+  border-right: 2px solid lightpink;
+}
+.social {
+  text-align: center;
+  padding-right: 20px;
+}
+.social img {
+  padding: 10px;
+  cursor: pointer;
 }
 /* stay with us end */
 
